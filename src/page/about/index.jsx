@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import BlobAnimation from "../../components/BlobAnimation";
+import { TypeAnimation } from "react-type-animation";
 
 const index = () => {
   const TransitionVariants = {
@@ -17,7 +19,7 @@ const index = () => {
     },
   };
   return (
-    <div>
+    <div className="">
       <motion.div
         className="fixed top-0 bottom-0 right-full w-screen h-screen z-30 bg-[#2e2257]"
         variants={TransitionVariants}
@@ -42,7 +44,42 @@ const index = () => {
         exit="exit"
         transition={{ delay: 0.4, duration: 0.6, ease: "easeInOut" }}
       ></motion.div>
-      <div>Home</div>
+      <div className="xl:flex space-y-14 xl:space-y-0 justify-center w-full mx-0 xl:justify-between xl:px-36 mx-auto  h-screen pt-44 xl:pt-0 my-auto items-center">
+        <h1 className=" xl:w-2/3 w-full text-center">
+          <h1 className="text-white my-auto mb-4 text-4xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold">
+            <span className=" bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
+              Hello, I&apos;m{" "}
+            </span>
+            <br></br>
+            <TypeAnimation
+              sequence={[
+                "Farid Efendi",
+                1000,
+                "Front-end Developer",
+                1000,
+                "Back-end Developer",
+                1000,
+                "Mobile Developer",
+                1000,
+              ]}
+              wrapper="span"
+              speed={50}
+              repeat={Infinity}
+            />
+          </h1>
+        </h1>
+        <div className="w-full xl:w-1/2 justify-center mx-auto flex">
+        <div className=" rounded-full bg-gradient-to-br from-purple-600 to bg-red-500 w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+          <img
+            src="./farid.png"
+            alt="hero image"
+            className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            width={300}
+            height={300}
+          />
+        </div>
+        </div>
+      </div>
     </div>
   );
 };
