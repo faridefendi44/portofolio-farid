@@ -44,7 +44,7 @@ const index = () => {
       ></motion.div>
       <div className="xl:px-44 xl:flex pt-10 flex-row-reverse">
         <div className="px-5 xl:w-1/2  flex my-auto">
-        <p className="text-white lg:text-lg font-semibold text-center">
+        <p className="text-white lg:text-2xl font-semibold text-center">
             I am a full stack web developer with a passion for creating
             interactive and responsive web applications. I have experience
             working with JavaScript, React, Node.js, Laravel,CodeIgniter, SQL
