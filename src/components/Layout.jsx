@@ -6,7 +6,7 @@ import TopLeftImage from './TopLeftImage'
 
 const Layout = ({children}) => {
   return (
-    <div className= 'page bg-site bg-cover bg-no-repeat text-white'>
+    <div className= '    text-white'>
       <TopLeftImage/>
       <Navbar/>
       <Header/>

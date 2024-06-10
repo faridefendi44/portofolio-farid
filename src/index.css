@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply leading-relaxed;
+  background-image: linear-gradient(to bottom right, #1A1333, #352467);
+  background-size: cover;
+  background-attachment: fixed;
+}
