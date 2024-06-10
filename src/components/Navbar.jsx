@@ -12,7 +12,7 @@ const Navbar = () => {
         <Link to={"/"}><IoMdHome /></Link>
         <Link to={"/profil"}><RiAccountPinCircleFill /></Link>
         <Link to={"/portofolio"}><RiGitRepositoryFill /></Link>
-        <Link to={"/portofolio"}><MdContactPhone /></Link>
+        <Link to={"/contact"}><MdContactPhone /></Link>
       </div>
     </div>
   );
