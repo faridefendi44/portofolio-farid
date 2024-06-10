@@ -53,15 +53,13 @@ const index = () => {
             I am excited to work with others to create amazing applications.
           </p>
         </div>
-        <div className="xl:w-1/2  flex mx-auto  justify-center my-auto">
+        <div className="xl:w-1/2  flex mx-auto justify-center my-auto">
         <img
             src="./farid2.png"
-            width={300}
-            height={300}
+            className="w-2/3"
             alt=""
             style={{ transform: "scaleX(-1)" }}
           />
-       
         </div>
       </div>
     </div>
