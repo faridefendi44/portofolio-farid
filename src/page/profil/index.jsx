@@ -42,9 +42,9 @@ const index = () => {
         exit="exit"
         transition={{ delay: 0.4, duration: 0.6, ease: "easeInOut" }}
       ></motion.div>
-      <div className="xl:flex mt-20 flex-row-reverse">
-        <div className="xl:w-1/2 border-2 flex my-auto">
-        <p className="text-white lg:text-lg text-center">
+      <div className="xl:px-44 xl:flex pt-10 flex-row-reverse">
+        <div className="px-5 xl:w-1/2  flex my-auto">
+        <p className="text-white lg:text-lg font-semibold text-center">
             I am a full stack web developer with a passion for creating
             interactive and responsive web applications. I have experience
             working with JavaScript, React, Node.js, Laravel,CodeIgniter, SQL
@@ -53,7 +53,7 @@ const index = () => {
             I am excited to work with others to create amazing applications.
           </p>
         </div>
-        <div className="xl:w-1/2 border-2 flex my-auto">
+        <div className="xl:w-1/2  flex mx-auto  justify-center my-auto">
         <img
             src="./farid2.png"
             width={300}
