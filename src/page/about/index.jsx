@@ -46,7 +46,7 @@ const index = () => {
         exit="exit"
         transition={{ delay: 0.4, duration: 0.6, ease: "easeInOut" }}
       ></motion.div>
-      <div className="xl:flex space-y-14 xl:space-y-0 justify-center w-full mx-0 xl:justify-between xl:px-36 mx-auto  h-screen pt-[120px] xl:pt-0 my-auto items-center">
+      <div className="xl:flex space-y-14 xl:space-y-0 justify-center w-full mx-0 xl:justify-between xl:px-36 mx-auto  h-screen pt-[90px] xl:pt-0 my-auto items-center">
         <h1 className=" xl:w-2/3 w-full text-center">
           <h1 className="text-white my-auto mb-4 text-4xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold">
             <span className=" bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
