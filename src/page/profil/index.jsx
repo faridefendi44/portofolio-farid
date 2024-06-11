@@ -114,7 +114,9 @@ const index = () => {
       <section>
         <div className="xl:px-44 xl:flex pt-10 flex-row-reverse">
           <div className="px-5 xl:w-1/2  flex my-auto">
-            <p className="text-white lg:text-2xl font-semibold text-center">
+          <div className="">
+            <h1 className="h2">From <span className="text-accent">Passion</span>  to <span className="text-accent">Profession</span> </h1>
+            <p className=" xl:text-2xl xl:text-justify text-center">
               I am a full stack web developer with a passion for creating
               interactive and responsive web applications. I have experience
               working with JavaScript, React, Node.js, Laravel,CodeIgniter, SQL
@@ -123,6 +125,7 @@ const index = () => {
               player and I am excited to work with others to create amazing
               applications.
             </p>
+          </div>
           </div>
           <div className="xl:w-1/2  flex mx-auto justify-center my-auto">
             <img
