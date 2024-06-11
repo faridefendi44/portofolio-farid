@@ -70,12 +70,12 @@ const index = () => {
             />
           </h1>
           <div>
-            <Link
-              href="/#contact"
+            <a
+              href="mailto: faridnurefendi@student.ub.ac.id"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
             >
               Hire Me
-            </Link>
+            </a>
             <a target="blank"
               href="https://drive.google.com/file/d/1C9SvWuPsOZXe0xaUQQaIWkaNP5OcREiO/view?usp=sharing"
               className="px-1 inline-block py-1 w-fit sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
