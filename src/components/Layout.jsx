@@ -9,7 +9,7 @@ import Circles from './Circles'
 
 const Layout = ({children}) => {
   return (
-    <div className= '    text-white'>
+    <div className= 'text-white'>
       <TopLeftImage/>
       <Bulb/>
       <Circles/>
